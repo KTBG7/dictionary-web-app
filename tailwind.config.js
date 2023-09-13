@@ -23,6 +23,7 @@ module.exports = {
       },
       textColor:{
         primary: '#2D2D2D',
+        light: '#FFFFFF',
         secondary: '#A445ED',
         subtext: '#757575',
         divider_color: '#E9E9E9'
@@ -33,13 +34,23 @@ module.exports = {
         gray_mentor: '#757575',
         purple_mentor: '#A445ED',
       },
+      borderColor: {
+        error: '#FF5252',
+      },
       stroke:{
         purple_mentor: '#A445ED',
         primary: '#838383'
       },
+      boxShadowColor:{
+        purple_mentor: '#A445ED',
+      },
       padding:{
         font_button: '18px',
         navbar: '26px',
+      },
+      dropShadow:{
+        dropdown: '0 4px 10px rgba(0, 0, 0, 0.25)',
+        dark: '0 4px 10px rgba(164, 69, 237, 1)'
       }
     },
   },

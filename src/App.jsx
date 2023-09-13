@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <div className="max-w-[1440px] min-h-screen flex justify-center mx-auto lg:px-5 lg:pt-14">
+    <div className="bg-light dark:bg-dark min-h-screen flex justify-center mx-auto px-6 pt-6 md:px-20 md:pt-5 lg:px-40 lg:pt-10">
         <Navbar />
     </div>
   );
