@@ -1,9 +1,11 @@
+import React from 'react';
 import './App.css';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <div className="">
-      <h1 className='font-lora text-heading_medium'>Hello</h1>
+    <div className="max-w-[1440px] min-h-screen flex justify-center mx-auto lg:px-5 lg:pt-14">
+        <Navbar />
     </div>
   );
 }
