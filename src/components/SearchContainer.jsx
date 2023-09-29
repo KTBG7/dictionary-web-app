@@ -3,7 +3,7 @@ import SearchBar from '../components/SearchBar'
 
 const SearchContainer = () => {
   return (
-    <div>
+    <div className='flex flex-col w-full'>
         <SearchBar />
     </div>
   )

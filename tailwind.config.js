@@ -33,6 +33,7 @@ module.exports = {
         dark: '#050505',
         gray_mentor: '#757575',
         purple_mentor: '#A445ED',
+        search: '#F4F4F4'
       },
       borderColor: {
         error: '#FF5252',
