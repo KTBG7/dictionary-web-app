@@ -26,7 +26,9 @@ module.exports = {
         light: '#FFFFFF',
         secondary: '#A445ED',
         subtext: '#757575',
-        divider_color: '#E9E9E9'
+        divider_color: '#E9E9E9',
+        dark_divider: '#3a3a3a',
+        list_color: '#8F19E8'
       },
       backgroundColor:{
         light: '#FFFFFF',
@@ -38,6 +40,9 @@ module.exports = {
       },
       borderColor: {
         error: '#FF5252',
+      },
+      fill:{
+        secondary: '#A445ED',
       },
       stroke:{
         purple_mentor: '#A445ED',
