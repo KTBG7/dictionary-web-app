@@ -33,6 +33,7 @@ const SearchBar = () => {
     }
     useEffect(() => {
         if(data){
+            console.log(data)
             queryClient.setQueryData(['dictionary'], data);
             setTriggerSearch(false);
         }
