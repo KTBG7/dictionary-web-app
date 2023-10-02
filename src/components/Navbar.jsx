@@ -20,7 +20,7 @@ const Navbar = () => {
     let selected = fontClass;
     let classes = document.documentElement.classList;
     for(const currClass of classes.values()){
-      if(currClass.toString() === 'font-inter'){
+      if(currClass === 'font-inter'){
         document.documentElement.classList.remove(currClass);
       }
       if(currClass === 'font-lora'){
